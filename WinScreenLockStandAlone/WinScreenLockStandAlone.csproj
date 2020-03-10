@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="LockMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LockMain.Designer.cs">
+      <DependentUpon>LockMain.cs</DependentUpon>
+    </Compile>
+    <Compile Update="PasswordPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PasswordPrompt.Designer.cs">
+      <DependentUpon>PasswordPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Update="ScrLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ScrLock.Designer.cs">
+      <DependentUpon>ScrLock.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="LockMain.resx">
+      <DependentUpon>LockMain.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

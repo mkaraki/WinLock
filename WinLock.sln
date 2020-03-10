@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLockPasswordUtils", "Win
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLock", "ApplicationLock\ApplicationLock.csproj", "{E5980698-8F5E-48F7-8AC4-12417A2B1B06}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WinLockSetup", "WinLockSetup\WinLockSetup.vdproj", "{52A26CE8-4675-4D0F-B0DE-0A567375AABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinScreenLockStandAlone", "WinScreenLockStandAlone\WinScreenLockStandAlone.csproj", "{F0484004-CE87-4E39-9921-E6C449E17ABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,10 +63,14 @@ Global
 		{E5980698-8F5E-48F7-8AC4-12417A2B1B06}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E5980698-8F5E-48F7-8AC4-12417A2B1B06}.Release|x64.ActiveCfg = Release|x64
 		{E5980698-8F5E-48F7-8AC4-12417A2B1B06}.Release|x64.Build.0 = Release|x64
-		{52A26CE8-4675-4D0F-B0DE-0A567375AABC}.Debug|Any CPU.ActiveCfg = Debug
-		{52A26CE8-4675-4D0F-B0DE-0A567375AABC}.Debug|x64.ActiveCfg = Debug
-		{52A26CE8-4675-4D0F-B0DE-0A567375AABC}.Release|Any CPU.ActiveCfg = Release
-		{52A26CE8-4675-4D0F-B0DE-0A567375AABC}.Release|x64.ActiveCfg = Release
+		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Debug|x64.Build.0 = Debug|Any CPU
+		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Release|x64.ActiveCfg = Release|Any CPU
+		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
