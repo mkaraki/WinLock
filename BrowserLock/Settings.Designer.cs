@@ -1,4 +1,4 @@
-﻿namespace ApplicationLock
+﻿namespace BrowserLock
 {
     partial class Settings
     {
@@ -110,6 +110,7 @@
             this.lbox_apps.Name = "lbox_apps";
             this.lbox_apps.Size = new System.Drawing.Size(534, 340);
             this.lbox_apps.TabIndex = 1;
+            this.lbox_apps.SelectedIndexChanged += new System.EventHandler(this.lbox_apps_SelectedIndexChanged);
             // 
             // Settings
             // 

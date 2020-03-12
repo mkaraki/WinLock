@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLock", "Applicat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinScreenLockStandAlone", "WinScreenLockStandAlone\WinScreenLockStandAlone.csproj", "{F0484004-CE87-4E39-9921-E6C449E17ABE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinLockLib", "WinLockLib", "{80B2A8DA-C96C-4985-97B6-F5698DDE4737}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinScreenLock", "WinScreenLock", "{8B163FBA-3924-4851-A238-0E9D880EFCDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserLock", "BrowserLock\BrowserLock.csproj", "{08D31B79-AC76-4DB7-A643-2ADBBD4A9AB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,9 +77,21 @@ Global
 		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Release|x64.ActiveCfg = Release|Any CPU
 		{F0484004-CE87-4E39-9921-E6C449E17ABE}.Release|x64.Build.0 = Release|Any CPU
+		{08D31B79-AC76-4DB7-A643-2ADBBD4A9AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D31B79-AC76-4DB7-A643-2ADBBD4A9AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D31B79-AC76-4DB7-A643-2ADBBD4A9AB4}.Debug|x64.ActiveCfg = Debug|x64
+		{08D31B79-AC76-4DB7-A643-2ADBBD4A9AB4}.Debug|x64.Build.0 = Debug|x64
+		{08D31B79-AC76-4DB7-A643-2ADBBD4A9AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D31B79-AC76-4DB7-A643-2ADBBD4A9AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D31B79-AC76-4DB7-A643-2ADBBD4A9AB4}.Release|x64.ActiveCfg = Release|x64
+		{08D31B79-AC76-4DB7-A643-2ADBBD4A9AB4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF80C944-A804-4FCE-B0B7-710E66F7A0EE} = {8B163FBA-3924-4851-A238-0E9D880EFCDD}
+		{F0484004-CE87-4E39-9921-E6C449E17ABE} = {8B163FBA-3924-4851-A238-0E9D880EFCDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE477EE6-E22F-41E0-AB42-63E5BA85CDD1}

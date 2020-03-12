@@ -1,18 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinLockStandAlone
 {
     public partial class LockMain : Form
     {
-        Rectangle ScreenRect = Screen.PrimaryScreen.Bounds;
+        private Rectangle ScreenRect = Screen.PrimaryScreen.Bounds;
 
         private string LockPassword { get; set; }
 
@@ -85,7 +79,7 @@ namespace WinLockStandAlone
 
             PasswordPrompt passf = new PasswordPrompt("Set your password.");
             passf.ShowDialog();
-            
+
             if (passf.ResultPassword == null)
             {
                 MessageBox.Show("Password is required.", "WinLock");
